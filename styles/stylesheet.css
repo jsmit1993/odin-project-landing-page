@@ -13,7 +13,7 @@ body {
 }
 
 .headerBar {
-    height: 170px;
+    height: 240px;
 }
 
 .left-link {
@@ -31,6 +31,8 @@ body {
 }
 
 .barSubtitle {
+    display: flex;
+    flex-wrap: wrap;
     color: #e5e7eb;
     font-size: 18px;
 }
@@ -72,12 +74,14 @@ a {
 
 .right-Info {
     width: 50%;
-    background-color: lightgray;
     padding: 16px;
     justify-content: center;
     align-items: center;
     height: 70px;
     margin-right: 8px;
+}
+.headshot {
+    height: 150px;
 }
 
 .request {
@@ -93,6 +97,8 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 15px;
+    padding: 15px;
 }
 
 .randomTitle {
@@ -122,10 +128,12 @@ a {
 }
 
 .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 60px;
     border: #1f2937;
     border-radius: 10px;
-    background-color: rgb(55, 52, 223);
 }
 
 .quotetime {
@@ -153,6 +161,36 @@ a {
     align-items: center;
     margin-bottom: 20px;
     font-weight: bold;
+}
+.actionBar {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin: 20px;
+}
+
+.actionTitle {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 16px;
+    margin: 8px;
+}
+
+.actiondescript {
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.joinTeam{
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: #f9faf8;
+    font-weight: bolder;
+    border: solid;
 }
 
 .footer {
